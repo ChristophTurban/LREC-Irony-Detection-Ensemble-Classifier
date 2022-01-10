@@ -1,0 +1,26 @@
+install the following python packages and their dependencies
+use Python 3.7
+
+ernie (https://github.com/labteral/ernie)
+0.0.33b0
+See textfile ernie_changes.txt for required modifications to make it compatible with bertweet.
+Instead of changeing the code manually you can replace ernie files with the enclosed files ernie.py and helper.py in the python environment on your machine.
+
+transformers (https://huggingface.co/transformers/installation.html)
+4.9.2
+Overwrites installation of an older transformer version which ernie required.
+A warning because of incompatibility with ernie will occur. It can be ignored.
+
+vaderSentiment (https://github.com/cjhutto/vaderSentiment)
+3.3.2
+
+emoji (https://pypi.org/project/emoji/)
+1.4.2
+
+nltk (https://www.nltk.org/)
+3.6.2
+
+deep-translator (https://deep-translator.readthedocs.io/en/latest/)
+1.5.0
+
+

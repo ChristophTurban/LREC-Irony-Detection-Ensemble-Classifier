@@ -1,0 +1,5 @@
+Download the original dataset from https://competitions.codalab.org/competitions/17468 where you might register as a participant first to get access to the dataset.
+Put it in the folder datasets
+
+Run file_handling.py
+see main.py then for different possibilities for the generation of augmented data and the training of the Bertweet models

@@ -1,0 +1,28 @@
+helper.py
+line 13
+inputs = tokenizer.encode_plus(sentence, add_special_tokens=True, max_length=tokenizer.max_len)
+inputs = tokenizer.encode_plus(sentence, add_special_tokens=True, max_length=128)
+
+line 15
+padding_length = tokenizer.max_len - len(input_ids)
+padding_length = 128 - len(input_ids)
+
+line 26
+assert tokenizer.max_len == len(attention_mask) == len(input_ids) == len(
+assert 128 == len(attention_mask) == len(input_ids) == len(
+
+line 27
+token_type_ids), f'{tokenizer.max_len}, {len(attention_mask)}, {len(input_ids)}, {len(token_type_ids)}'
+token_type_ids), f'{128}, {len(attention_mask)}, {len(input_ids)}, {len(token_type_ids)}'
+
+
+
+
+ernie.py
+line 210
+max_length=self._tokenizer.max_len)
+max_length=128,truncation=True)
+
+line 229
+padded_array = np.zeros(self._tokenizer.max_len, dtype=np.int)
+padded_array = np.zeros(128, dtype=np.int)
