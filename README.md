@@ -50,7 +50,6 @@ Table 3 Results of fine-tuning Bertweet models on Task A with original train dat
 | cs | 0.7945 |
 | nl | 0.7732 |
 | fr | 0.7657 |
-
 | Mean | 0.773 |
 | Ensemble | 0.7868 |
 
@@ -166,6 +165,8 @@ Table 9 Results of training the proposed combination ensemble model ten times
 
 Table 10 Results of ten fold cross-validation
 
+| Model  | f1 score | f1 score B | f1 on 0 | f1 on 1 | f1 on 2 | f1 on 3 |
+| - | -| - | -| -| -| -|
 | 0 | 0.7942 | 0.5951 | 0.851 | 0.7531 | 0.6667 | 0.1096 | 
 | 1 | 0.7787 | 0.6188 | 0.8202 | 0.7386 | 0.6369 | 0.2796 | 
 | 2 | 0.8325 | 0.6621 | 0.8733 | 0.8083 | 0.646 | 0.321 | 
