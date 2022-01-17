@@ -5,6 +5,6 @@ A Shapiro-Wilk test applied on the f1 scores from the models which were trained 
 A Wilcoxon signed-rank test was conducted to compare these results.
 It shows a significant difference in f1 scores of models trained on A (Mean: 0.7471 SD: 0.0559) and models trained on B (Mean: 0.7804 SD: 0.0117); Z = 8.0, p = 0.0488. 
 
-This means that BERTweet performed significantly better on the binary classification task when trained on the multiclass classification task
+*This means that BERTweet performed significantly better on the binary classification task when trained on the multiclass classification task*
 
 Results for other statistical tests are available on request, they show no significance.
